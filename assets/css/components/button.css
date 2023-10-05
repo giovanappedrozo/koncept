@@ -1,0 +1,11 @@
+@import url(_variables.css);
+
+.button {
+  border: 1px solid var(--blue);
+  background-color: unset;
+  border-radius: 50px;
+  padding: 12px 24px;
+  color: var(--blue);
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+}

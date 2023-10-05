@@ -1,0 +1,10 @@
+:root {
+  --yellow: #a87c24;
+  --blue: #252c57;
+  --white: #f8f8f8;
+  --black: #222222;
+
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+}

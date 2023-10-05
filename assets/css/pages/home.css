@@ -1,0 +1,21 @@
+@import url(_variables.css);
+
+#home-section {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: zoom-in-zoom-out 20s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    background-size: 105% 105%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 105% 105%;
+  }
+}
